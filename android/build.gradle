@@ -45,31 +45,31 @@ allprojects {
 
 dependencies {
     //防止libs下的极光SDK冲突
-    compileOnly files('libs/jpush-android-5.5.3.jar')
+    compileOnly files('libs/jpush-android-5.8.0.jar')
     implementation 'com.facebook.react:react-native:+'
 
     //小米 SDK
-    implementation 'cn.jiguang.sdk.plugin:xiaomi:5.5.3'
+    implementation 'cn.jiguang.sdk.plugin:xiaomi:5.8.0'
 
     //华为 SDK
-    implementation 'com.huawei.hms:push:6.12.0.300'
-    implementation 'cn.jiguang.sdk.plugin:huawei:5.5.3'
+    implementation 'com.huawei.hms:push:6.13.0.300'
+    implementation 'cn.jiguang.sdk.plugin:huawei:5.8.0'
 
     //魅族 SDK
-    implementation(name:'push-internal-5.0.2', ext:'aar')
-    implementation 'cn.jiguang.sdk.plugin:meizu:5.5.3'
+    implementation(name:'push-internal-5.0.3', ext:'aar')
+    implementation 'cn.jiguang.sdk.plugin:meizu:5.8.0'
 
     //VIVO SDK
-    implementation 'cn.jiguang.sdk.plugin:vivo:5.5.3.a'
+    implementation 'cn.jiguang.sdk.plugin:vivo:5.8.0'
 
     //OPPO SDK
-    implementation(name:'com.heytap.msp_3.5.2', ext:'aar')
+    implementation(name:'com.heytap.msp_3.5.3', ext:'aar')
     implementation 'com.google.code.gson:gson:2.6.2'
     implementation 'commons-codec:commons-codec:1.6'
     implementation 'androidx.annotation:annotation:1.1.0'
-    implementation 'cn.jiguang.sdk.plugin:oppo:5.5.3'
+    implementation 'cn.jiguang.sdk.plugin:oppo:5.8.0'
 
     //荣耀 SDK
     implementation(name:'HiPushSDK-8.0.12.307', ext:'aar')
-    implementation 'cn.jiguang.sdk.plugin:honor:5.5.3'
+    implementation 'cn.jiguang.sdk.plugin:honor:5.8.0'
 }
